@@ -1,4 +1,4 @@
-# HW9 - 電影資訊爬蟲與 Chatbot
+# HW10-電影資訊爬蟲網頁與Gemini ChatBOT
 
 [![Demo](https://img.shields.io/badge/Demo-%F0%9F%8E%AC-%231a1a2e?style=for-the-badge)](https://hw-10-movie-crawler-with-gemini-bot.vercel.app)
 
