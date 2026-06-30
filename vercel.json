@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "movies.html", "use": "@vercel/static" },
+    { "src": "movies.csv", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/movies.html" },
+    { "src": "/(.+)", "dest": "/$1" }
+  ]
+}

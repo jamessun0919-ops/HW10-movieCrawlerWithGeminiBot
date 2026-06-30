@@ -1,0 +1,4 @@
+.env
+posters/
+*.pyc
+__pycache__/
