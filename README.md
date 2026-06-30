@@ -1,6 +1,6 @@
 # HW9 - 電影資訊爬蟲與 Chatbot
 
-[![Demo](https://img.shields.io/badge/Demo-%F0%9F%8E%AC-%231a1a2e?style=for-the-badge)](https://hw10-moviecrawlerwithgeminibot.vercel.app)
+[![Demo](https://img.shields.io/badge/Demo-%F0%9F%8E%AC-%231a1a2e?style=for-the-badge)](https://hw-10-movie-crawler-with-gemini-bot.vercel.app)
 
 ## 專案內容
 
@@ -65,5 +65,5 @@ python server.py
 
 ## 已部署網址
 
-- **前端 (Vercel)**: [hw10-moviecrawlerwithgeminibot.vercel.app](https://hw10-moviecrawlerwithgeminibot.vercel.app)
+- **前端 (Vercel)**: [hw10-moviecrawlerwithgeminibot.vercel.app](https://hw-10-movie-crawler-with-gemini-bot.vercel.app)
 - **後端 (Render)**: [hw10-moviecrawlerwithgeminibot.onrender.com](https://hw10-moviecrawlerwithgeminibot.onrender.com)
