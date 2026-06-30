@@ -1,6 +1,6 @@
 # HW9 - 電影資訊爬蟲與 Chatbot
 
-[![Demo](https://img.shields.io/badge/Demo-%F0%9F%8E%AC-%231a1a2e?style=for-the-badge)](https://htmlpreview.github.io/?https://github.com/jamessun0919-ops/HW9-MovieCrawler-Csv-localweb/blob/main/movies.html)
+[![Demo](https://img.shields.io/badge/Demo-%F0%9F%8E%AC-%231a1a2e?style=for-the-badge)](https://hw10-moviecrawlerwithgeminibot.vercel.app)
 
 ## 專案內容
 
@@ -63,14 +63,7 @@ python server.py
 4. 新增環境變數 `GEMINI_API_KEY`
 5. 部署後取得後端網址（如 `https://hw9-movie-crawler-api.onrender.com`）
 
-### 更新前端 API 位址
+## 已部署網址
 
-將 `movies.html` 中的 `API_BASE` 變數改為 Render 後端網址：
-
-```js
-const API_BASE = 'https://hw9-movie-crawler-api.onrender.com';
-```
-
-## Demo
-
-點擊上方按鈕可檢視電影資訊表格（靜態頁面，Chatbot 需搭配後端才能運作）。
+- **前端 (Vercel)**: [hw10-moviecrawlerwithgeminibot.vercel.app](https://hw10-moviecrawlerwithgeminibot.vercel.app)
+- **後端 (Render)**: [hw10-moviecrawlerwithgeminibot.onrender.com](https://hw10-moviecrawlerwithgeminibot.onrender.com)
