@@ -55,6 +55,17 @@ def chat():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route("/", methods=["GET"])
+def root():
+    return jsonify({
+        "service": "HW10 Movie Crawler API",
+        "endpoints": {
+            "/health": "GET - 健康檢查",
+            "/api/chat": "POST - 聊天機器人"
+        },
+        "frontend": "https://hw10-moviecrawlerwithgeminibot.vercel.app"
+    })
+
 @app.route("/health", methods=["GET"])
 def health():
     return jsonify({"status": "ok"})
